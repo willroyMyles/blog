@@ -4,7 +4,9 @@
 
 <a href="/posts" class="btn btn-dark btn-sm">go back</a><br>
 <br>
-<h3>{{$post->title}}</h1>
+
+<h3>{{$post->title}}</h1><br>
+<img style="width: 30%" src="/storage/cover_images/{{$post->cover_image}}" alt=""><br><br>
 
 <div>
     {!!$post->body!!}
